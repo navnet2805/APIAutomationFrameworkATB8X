@@ -8,10 +8,10 @@ import org.testng.annotations.Test;
 public class TestIntegrationSample {
 
     /*
-    Create a booking
-    get a booking
-    update a booking
-    delete a booking
+    Create a booking.
+    get a booking.
+    update a booking.
+    delete a booking.
      */
 
     @Test(groups = "qa", priority = 1)
