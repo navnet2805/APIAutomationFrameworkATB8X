@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/naveen.rp/IdeaProjects/APIAutomationFrameworkATB8x">
+        <classes>
+            <class name="com.thetestingacademy.tests.sample.TestIntegrationSample">
+                <methods>
+                    <include name="CreateBooking"/>
+                    <include name="GetBooking"/>
+                    <include name="UpdateBooking"/>
+                    <include name="DeleteBooking"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
